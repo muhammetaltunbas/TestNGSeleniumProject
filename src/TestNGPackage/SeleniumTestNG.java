@@ -29,7 +29,7 @@ public class SeleniumTestNG {
 
 	@BeforeMethod
 	public void launchBrowser() throws Exception {
-		String exePath = "d:\\users\\918351\\Downloads\\SeleniumCrome\\chromedriver.exe";// D:\CromeDriver(ForSelenium)
+		String exePath = "D:\\SeleniumChromeDriver\\chromedriver.exe";
 		ChromeOptions options = new ChromeOptions();// Ýzin sorunu Ýçin eklendi.
 		options.setExperimentalOption("useAutomationExtension", false);// Ýzin sorunu için eklendi.
 
@@ -44,12 +44,12 @@ public class SeleniumTestNG {
 		driver.get(URL);
 		driver.manage().window().maximize();
 	}
-	// System.out.println("Title of Page: " + driver.getTitle());
+
 
 	@Test(dataProvider = "MamiTest")
 	public void runapp(String username, String password) throws Throwable {
 
-		//UtilTestNG.GetExcelDataTest();
+
 		String actualTitle;
 		String actualBoxMsg;
 		driver.findElement(By.name("uid")).clear();
