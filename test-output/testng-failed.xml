@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNGPackage.SeleniumTestNG">
+      <class name="chrome.SeleniumTestngExtentReport">
         <methods>
+          <include name="getResult"/>
           <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="runapp"/>
+          <include name="checkTitle"/>
+          <include name="endReport"/>
         </methods>
-      </class> <!-- TestNGPackage.SeleniumTestNG -->
+      </class> <!-- chrome.SeleniumTestngExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,41 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37276" started-at="2019-10-04T12:45:04Z" finished-at="2019-10-04T12:45:42Z">
+  <suite name="Default suite" duration-ms="30595" started-at="2019-10-22T06:19:41Z" finished-at="2019-10-22T06:20:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37276" started-at="2019-10-04T12:45:04Z" finished-at="2019-10-04T12:45:42Z">
-      <class name="TestNGPackage.SeleniumTestNG">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="launchBrowser" is-config="true" duration-ms="7279" started-at="2019-10-04T15:45:05Z" finished-at="2019-10-04T15:45:12Z">
+    <test name="Default test" duration-ms="30595" started-at="2019-10-22T06:19:41Z" finished-at="2019-10-22T06:20:12Z">
+      <class name="chrome.SeleniumTestngExtentReport">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="launchBrowser" is-config="true" duration-ms="8338" started-at="2019-10-22T09:19:41Z" finished-at="2019-10-22T09:19:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="runapp(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="runapp" duration-ms="1388" started-at="2019-10-04T15:45:12Z" data-provider="MamiTest" finished-at="2019-10-04T15:45:13Z">
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="checkTitle" duration-ms="2435" started-at="2019-10-22T09:19:49Z" finished-at="2019-10-22T09:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="getResult" is-config="true" duration-ms="1017" started-at="2019-10-22T09:19:52Z" finished-at="2019-10-22T09:19:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Mngr223209]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[AnusypY]]>
+                <![CDATA[[TestResult name=checkTitle status=SUCCESS method=SeleniumTestngExtentReport.checkTitle()[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runapp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="closeBrowser" is-config="true" duration-ms="1320" started-at="2019-10-04T15:45:13Z" finished-at="2019-10-04T15:45:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="launchBrowser" is-config="true" duration-ms="7244" started-at="2019-10-04T15:45:15Z" finished-at="2019-10-04T15:45:22Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="launchBrowser" is-config="true" duration-ms="7543" started-at="2019-10-22T09:19:53Z" finished-at="2019-10-22T09:20:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="runapp(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="runapp" duration-ms="778" started-at="2019-10-04T15:45:22Z" data-provider="MamiTest" finished-at="2019-10-04T15:45:23Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="loginTest" duration-ms="1633" started-at="2019-10-22T09:20:00Z" data-provider="MamiTest" finished-at="2019-10-22T09:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr228299]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jebynEt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="getResult" is-config="true" duration-ms="957" started-at="2019-10-22T09:20:02Z" finished-at="2019-10-22T09:20:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SeleniumTestngExtentReport.loginTest(java.lang.String, java.lang.String)[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="launchBrowser" is-config="true" duration-ms="6566" started-at="2019-10-22T09:20:03Z" finished-at="2019-10-22T09:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="loginTest" duration-ms="847" started-at="2019-10-22T09:20:10Z" data-provider="MamiTest" finished-at="2019-10-22T09:20:10Z">
           <params>
             <param index="0">
               <value>
@@ -50,60 +76,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runapp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="closeBrowser" is-config="true" duration-ms="948" started-at="2019-10-04T15:45:23Z" finished-at="2019-10-04T15:45:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="launchBrowser" is-config="true" duration-ms="6774" started-at="2019-10-04T15:45:24Z" finished-at="2019-10-04T15:45:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="runapp(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="runapp" duration-ms="945" started-at="2019-10-04T15:45:30Z" data-provider="MamiTest" finished-at="2019-10-04T15:45:31Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="getResult" is-config="true" duration-ms="883" started-at="2019-10-22T09:20:10Z" finished-at="2019-10-22T09:20:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[valid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalid]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SeleniumTestngExtentReport.loginTest(java.lang.String, java.lang.String)[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runapp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="closeBrowser" is-config="true" duration-ms="944" started-at="2019-10-04T15:45:31Z" finished-at="2019-10-04T15:45:32Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:chrome.SeleniumTestngExtentReport@396f6598]" name="endReport" is-config="true" duration-ms="174" started-at="2019-10-22T09:20:11Z" finished-at="2019-10-22T09:20:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="launchBrowser" is-config="true" duration-ms="7368" started-at="2019-10-04T15:45:32Z" finished-at="2019-10-04T15:45:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="runapp(java.lang.String, java.lang.String)[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="runapp" duration-ms="794" started-at="2019-10-04T15:45:40Z" data-provider="MamiTest" finished-at="2019-10-04T15:45:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runapp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNGPackage.SeleniumTestNG@39aeed2f]" name="closeBrowser" is-config="true" duration-ms="1314" started-at="2019-10-04T15:45:40Z" finished-at="2019-10-04T15:45:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestNGPackage.SeleniumTestNG -->
+        </test-method> <!-- endReport -->
+      </class> <!-- chrome.SeleniumTestngExtentReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
